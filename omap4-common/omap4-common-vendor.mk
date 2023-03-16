@@ -16,3 +16,15 @@
 
 $(call inherit-product-if-exists, vendor/amazon/omap4-common/omap4-common-vendor-blobs.mk)
 
+PRODUCT_PACKAGES += \
+        libglslcompiler \
+        libIMGegl \
+        libpvr2d \
+        libpvrANDROID_WSEGL \
+        libPVRScopeServices \
+        libsrv_init \
+        libsrv_um \
+        libusc \
+        libEGL_POWERVR \
+        libGLESv1_CM_POWERVR \
+        libGLESv2_POWERVR
